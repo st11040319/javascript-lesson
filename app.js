@@ -2,7 +2,7 @@
 // Q1
 let name = 'たつき';
 let age = 27;
-let greet = '私の名前は'+name+'です。年齢は' + age+ 'です。'
+let greet = '私の名前は'+ name +'です。年齢は' + age + 'です。'
 console.log(greet);
 
 // Q2
@@ -39,7 +39,7 @@ let playerList = [
     favorites: ['Football', 'Smash Bros.'],
   },
 ];
-console.log(playerList[1].favorites);
+console.log(playerList[1].favorites[1]);
 
 // Q5
 let totalAge = playerList[0].age + playerList[1].age + playerList[2].age;
@@ -52,7 +52,7 @@ function sayHello(){
 }
 sayHello();
 
-let sayWorld = function(){
+let sayWorld = function (){
   console.log('World')
 }
 sayWorld();
@@ -91,6 +91,8 @@ calc.divide(25, 5);
 function remainder(x,y){
   return x % y;
 }
+const x = 5;
+const y = 3;
 const result = remainder(5,3);
 console.log(x + ' を ' + y + ' で割った余りは ' + result + ' です。');
 
